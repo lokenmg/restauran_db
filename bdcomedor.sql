@@ -20,7 +20,9 @@ CREATE TABLE "nota_venta" (
   "total" decimal NOT NULL,
   "nombre" varchar NOT NULL DEFAULT 'cliente',
   "fecha" date NOT NULL,
-  "estado_pago" varchar NOT NULL
+  "estado_pago" varchar NOT NULL,
+  "nota" text,
+  "estado_pedido" varchar NOT NULL
 );
 
 CREATE TABLE "detalle" (
